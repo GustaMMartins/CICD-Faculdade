@@ -6,9 +6,9 @@ app = Flask(__name__)
 def home():
     return "Bem-vindo à Aula 3"
 
-    @app.route("/sobre")
+@app.route("/sobre")
 def sobre():
-    return "Exemplo de API Flask para CI/CD"
+return "Exemplo de API Flask para CI/CD"
 
 @app.route("/status")
 def status():
