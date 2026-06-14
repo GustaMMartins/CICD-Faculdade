@@ -22,6 +22,6 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Verificar sintaxe
-        run: python -m py_compile app.py
+        run: python -m py_compile aula2/app.py
 
      
