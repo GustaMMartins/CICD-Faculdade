@@ -22,6 +22,6 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Verificar sintaxe
-        run: python -m py_compile aula2/flask-worflow/app.py
+        run: python -m py_compile aula2/flask-worflows/app.py
 
      
