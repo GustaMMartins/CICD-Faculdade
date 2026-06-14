@@ -1,0 +1,5 @@
+ ## Tecnologias
+
+- Python
+- Flask
+- Git
