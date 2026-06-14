@@ -15,7 +15,7 @@ def status():
     return {
         "status": "online",
         "aplicacao": "Aula 4"
-    }
+    
 
 if __name__ == "__main__":
     app.run(debug=True)
