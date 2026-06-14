@@ -24,3 +24,8 @@ def autores():
 def contato():
     return "Pagina de Contato"
 
+
+@app.route("/cadastro-livro")
+def cadastro_livro():
+    return "Cadastro de Livro"
+
