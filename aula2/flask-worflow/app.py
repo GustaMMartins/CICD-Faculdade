@@ -10,3 +10,8 @@ def home():
 def sobre():
     return "Pagina Sobre"
 
+
+@app.route("/livros")
+def livros():
+    return "Lista de Livros"
+
