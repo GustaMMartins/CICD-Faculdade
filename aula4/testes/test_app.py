@@ -1,4 +1,4 @@
-from app import soma, divisao
+from aula4.app import soma, divisao
 
 def test_soma():
     assert soma(2, 3) == 5
