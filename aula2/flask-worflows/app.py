@@ -6,7 +6,7 @@ app = Flask(__name__)
 def home():
     return "Pagina Inicial"
 
-    @app.route("/sobre")
+@app.route("/sobre")
 def sobre():
     return "Pagina Sobre"
 
