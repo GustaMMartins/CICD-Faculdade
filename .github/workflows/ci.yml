@@ -19,9 +19,9 @@ jobs:
           python-version: '3.11'
 
       - name: Instalar dependências
-        run: pip install -r requirements.txt
+        run: pip install -r aula3/requirements.txt
 
       - name: Verificar sintaxe
-        run: python -m py_compile aula2/flask-worflows/app.py
+        run: python -m py_compile aula3/app.py
 
      
