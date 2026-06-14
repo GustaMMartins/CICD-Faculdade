@@ -8,7 +8,7 @@ def home():
 
 @app.route("/sobre")
 def sobre():
-    return "Exemplo de API Flask para CI/CD"
+    return "Exemplo de API Flask para o CI/CD"
 
 @app.route("/status")
 def status():
