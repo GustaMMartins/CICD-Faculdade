@@ -22,7 +22,7 @@ def autores():
 
 @app.route("/contato")
 def contato():
-    return "Pagina com erro"
+    return "Pagina com o erro corrigido"
 
 
 
